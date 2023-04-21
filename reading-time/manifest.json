@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Reading Time [ultra]",
+  "version": "1.0",
+  "description": "Add the approximate reading time in articles",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
+}
